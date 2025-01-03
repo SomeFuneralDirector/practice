@@ -1,0 +1,66 @@
+#scam{
+    text-align: center;
+    width: 300px;
+    background-color: rgb(77, 168, 247);
+    display: flex;
+    border-radius: 15px;
+}
+#scam h3{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+body{
+    background: url(image/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  #box{
+    backdrop-filter: blur(10px);
+    margin: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(8, 59, 71, 0.514);
+    border-radius: 10px;
+    box-shadow: 3px 5px 6px black;
+  }
+  #box h1{
+    font-size: 2rem;
+    background-color: rgb(67, 20, 238);
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
+    margin: 40px 0px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .ans{
+    color: white;
+  }
+  #pin{
+    margin-left: 21px;
+  }
+  #button{
+    margin-left: 95px;
+    margin-top: 50px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 15px;
+  }
+  #button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 158, 206);
+    color: white;
+  }
+  

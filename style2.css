@@ -1,0 +1,39 @@
+body{
+    background-image: url(image/pic2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0%;
+}
+#ip{
+    margin: 450px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.575);
+    border: none;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 3px 5px 6px black;
+}
+#ip h1{
+    color: rgb(221, 9, 9);
+    text-align: center;
+}
+#ip img{
+    margin-left: 100px;
+}
+#ip h3{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(44, 131, 245);
+    border: none;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: whitesmoke;  
+}
